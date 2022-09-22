@@ -1,0 +1,36 @@
+body {
+  background-color: #1f2937;
+  color: white;
+}
+
+.boxes, .box {
+  display: inline;
+}
+
+.grandparent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 75vh;
+  background-color: royalblue;
+  border: 5px solid #343434;
+  padding: 2.4rem;
+}
+
+.parent {
+  width: 100%;
+  height: 75%;
+  border: 5px solid black;
+  background-color: goldenrod;
+  margin: 2.5%;
+  display: flex;
+}
+
+.child {
+  border: 5px solid black;
+  background-color: palevioletred;
+  width: 100%;
+  margin: 5%;
+}
