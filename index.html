@@ -9,14 +9,34 @@
     <title>Rotating Array</title>
   </head>
   <body>
-    <section class="grandparent" id="grandparent">
-      <aside class="parent">
-        <article class="child"></article>
-        <article class="child"></article>
-      </aside>
-      <aside class="parent">
-        <article class="child"></article>
-        <article class="child"></article>
+    <div class="flex justify-center">
+      <div class="mb-3 xl:w-96">
+        <select
+          class="form-select w-full px-3 py-2.5 text-gray-700 bg-white rounded mt-36"
+          id="rotateBy"
+          aria-label="Rotate array by"
+        >
+          <option selected>Rotate array by:</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+    </div>
+    <section class="flex justify-center items-center">
+      <button
+        type="button"
+        class="bg-blue-700 px-2.5 py-2.5 mr-6 mb-2"
+        id="left"
+      >
+        Left
+      </button>
+      <aside class="boxes">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+        <div class="box">5</div>
       </aside>
     </section>
     <script src="./app.js"></script>
