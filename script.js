@@ -33,7 +33,7 @@ function backwards(arr, r) {
     .join(" ");
 }
 
-function forwards(r) {
+function forwards(arr, r) {
   console.log("forwards...");
   // 1,2,3,4,5
   // 2,3,4,5,1
